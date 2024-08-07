@@ -12,6 +12,52 @@ img {
   font-weight: 900;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* Debugging purpose */
+  /* border: 5px solid red; */
+}
+
+
+.title-container {
+  justify-content: center;
+  margin-bottom: 32px;
+
+  /* Debugging purpose */
+  /* border: 5px solid green; */
+}
+
+.plants-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 52px;
+  flex-basis: 200px;
+  padding: 0 150px;
+
+  /* Debugging purpose */
+  /* border: 5px solid blue; */
+}
+
+.berry-container,
+.chili-container,
+.pepper-container,
+.saffron-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Debugging purpose */
+  /* border: 5px dashed orange; */
+}
+
+.text {
+  text-align: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
