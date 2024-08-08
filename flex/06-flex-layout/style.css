@@ -82,6 +82,7 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
+  background-color: #eee;
 
   /* Debugging */
   /* border: 3px solid red; */
@@ -98,8 +99,4 @@ a {
 
   /* Debugging */
   /* border: 3px solid green; */
-}
-
-.footer {
-  background-color: #eee;
 }
